@@ -1,4 +1,4 @@
-'use client';
+// 'use client';
 import { useSelector } from 'react-redux';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -7,7 +7,7 @@ export default function Step4() {
   // const notify = () => toast("Wow so easy!");
   const handleSubmit = () => {
 
-    toast('Form submitted successfully!');
+    toast.success('Form submitted successfully!');
     console.log('Submitted Data:', formData);
   };
 
